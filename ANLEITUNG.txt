@@ -1,0 +1,18 @@
+BW Lerntrainer – Android-App (Quellprojekt)
+
+Diese ZIP ist ein Android-Studio-Projekt, keine direkt installierbare APK.
+
+APK erstellen:
+1. Android Studio auf einem PC/Mac installieren.
+2. ZIP entpacken und Ordner BW_Lerntrainer_Android in Android Studio öffnen.
+3. Warten, bis Gradle synchronisiert ist (Internet beim ersten Build erforderlich).
+4. Build > Build Bundle(s) / APK(s) > Build APK(s) auswählen.
+5. APK unter app/build/outputs/apk/debug/app-debug.apk finden.
+6. APK auf das Android-Gerät übertragen und installieren. Android kann eine
+   Bestätigung für die Installation aus dieser Quelle verlangen.
+
+Die App läuft nach Installation offline. Fragen und Lernfortschritt bleiben
+lokal auf dem Gerät. Es werden keine Daten an einen Server gesendet.
+
+Hinweis: Die Antworten wurden aus der vorhandenen Lerntrainer-Datei übernommen
+und sind nicht anhand aktueller Bundeswehr-Vorschriften geprüft.

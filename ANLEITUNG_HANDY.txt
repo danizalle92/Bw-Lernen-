@@ -1,0 +1,12 @@
+BW Lerntrainer APK nur mit Android-Handy bauen
+
+Du benötigst ein GitHub-Konto und Internet für die einmalige Erstellung.
+1. Projekt-ZIP in der Dateien-App entpacken.
+2. Auf github.com ein neues privates Repository anlegen.
+3. Im Repository die Dateien samt Unterordnern hochladen (GitHub-Weboberfläche im Desktopmodus oder github.dev; achte besonders auf .github/workflows/android-apk.yml).
+4. Unter Actions den Workflow "Android APK erstellen" starten (oder Push abwarten).
+5. Nach erfolgreichem Lauf bei Artifacts "BW-Lerntrainer-APK" herunterladen. GitHub liefert das Artifact als ZIP; darin liegt die Datei app-debug.apk.
+6. APK auf Android installieren (ggf. Installation aus dieser Quelle erlauben).
+7. Die APK kann per WhatsApp als Dokument verschickt werden.
+
+Achtung: Das ist eine Debug-APK, nicht für Play Store gedacht. Die APK wurde hier nicht kompiliert oder auf Geräten getestet. Ein Build kann Fehler aufzeigen, die behoben werden müssen. Installiere nur APKs aus vertrauenswürdigen Quellen.
